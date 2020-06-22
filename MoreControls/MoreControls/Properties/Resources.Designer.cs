@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FirstApp.Properties {
+namespace MoreControls.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace FirstApp.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("FirstApp.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MoreControls.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -63,9 +63,9 @@ namespace FirstApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Mr__Smiley_Face_svg {
+        internal static System.Drawing.Bitmap maxresdefault {
             get {
-                object obj = ResourceManager.GetObject("Mr._Smiley_Face.svg", resourceCulture);
+                object obj = ResourceManager.GetObject("maxresdefault", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,19 +73,9 @@ namespace FirstApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap sad_smiley {
+        internal static System.Drawing.Bitmap tuscany {
             get {
-                object obj = ResourceManager.GetObject("sad_smiley", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap T1VTgUev_TYhd {
-            get {
-                object obj = ResourceManager.GetObject("T1VTgUev_TYhd", resourceCulture);
+                object obj = ResourceManager.GetObject("tuscany", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
