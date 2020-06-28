@@ -5,8 +5,10 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.VisualStyles;
 
 namespace Tickets
 {
@@ -42,6 +44,30 @@ namespace Tickets
             }
 
             MessageBox.Show("Your price is " + price.ToString("c"));
+        }
+
+        private void BtnAverage_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnGas_Click(object sender, EventArgs e)
+        {
+            int gas;
+            double bill = 0.0;
+
+            gas = int.Parse(Microsoft.VisualBasic.Interaction.InputBox("Please enter gas usage in ccf", "Gas Bill", ""));
+
+            if (gas <= 8)
+            {
+                bill = gas * .50;
+            }
+            else if (gas > 8)
+            {
+                bill = (8 * .50) + ((gas - 8) * .30);
+            }
+
+            MessageBox.Show("Your bill is : " + bill.ToString("c"));
         }
     }
 }
